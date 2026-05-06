@@ -1,0 +1,114 @@
+body{
+font-family: Arial, sans-serif;
+background:#f4f6fb;
+margin:0;
+}
+
+/* Main container */
+
+.container{
+width:420px;
+margin:auto;
+margin-top:40px;
+}
+
+/* Cards */
+
+.card{
+background:white;
+padding:20px;
+margin-top:20px;
+border-radius:10px;
+box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Title */
+
+h1{
+text-align:center;
+color:#1976d2;
+}
+
+h2{
+margin-top:0;
+}
+
+/* Inputs */
+
+input,select,textarea{
+
+width:100%;
+padding:10px;
+margin-top:10px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:14px;
+
+}
+
+/* Text area */
+
+textarea{
+height:100px;
+resize:none;
+}
+
+/* Buttons */
+
+button{
+
+width:100%;
+padding:10px;
+margin-top:15px;
+background:#1976d2;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-size:15px;
+font-weight:bold;
+
+}
+
+button:hover{
+background:#1256a3;
+}
+
+/* Secondary button */
+
+.secondary-btn{
+background:#4caf50;
+}
+
+.secondary-btn:hover{
+background:#388e3c;
+}
+
+/* Stop recording button */
+
+.stop-btn{
+background:#e53935;
+}
+
+.stop-btn:hover{
+background:#c62828;
+}
+
+/* Customer details */
+
+.customer-info{
+background:#f1f5ff;
+padding:10px;
+border-radius:6px;
+margin-top:10px;
+}
+
+/* Bill display */
+
+.bill-total{
+font-size:20px;
+font-weight:bold;
+color:#2e7d32;
+margin-top:10px;
+text-align:center;
+}
